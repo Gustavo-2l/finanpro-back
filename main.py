@@ -27,8 +27,8 @@ app = FastAPI(title="Finanpro - API de Finanças")
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://finanpro-front-main-atualizado-lpaa-igapw8fnu.vercel.app",
-    "https://finanpro-front-main-git-82d2d6-gustavo-vidals-projects-bb9f85f9.vercel.app"
+    "https://finanpro-front-main-atualizado-lpaa-igapw8fnu.vercel.app/",
+    "https://finanpro-front-main-git-82d2d6-gustavo-vidals-projects-bb9f85f9.vercel.app/"
 ]
 
 app.add_middleware(
