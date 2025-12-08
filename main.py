@@ -25,8 +25,7 @@ app = FastAPI(title="Finanpro - API de Finanças")
 # CONFIGURAÇÃO DO CORS PARA O FRONTEND
 # ======================================
 origins = [
-    "https://finanpro-front-main-atualizado-lpaa-igapw8fnu.vercel.app",
-    "https://finanpro-front-main-atualizado-lpaa.vercel.app/"
+    "https://finanpro-front-main-atualizado-lpaa.vercel.app"
 ]
 
 
